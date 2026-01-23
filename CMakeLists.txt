@@ -9,6 +9,7 @@ add_executable(Tarottrpg
   src/game/PlayerState/PlayerState.cpp
   src/game/Deck/Deck.cpp
   src/game/CardInstance/CardInstance.cpp
+  src/game/CardDefinition/CardDefinition.cpp
 )
 target_compile_features(Tarottrpg PRIVATE cxx_std_17)
 
