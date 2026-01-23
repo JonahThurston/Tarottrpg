@@ -4,6 +4,11 @@
 #include "game/Deck/Deck.hpp"
 
 class PlayerState {
+    public:
+    private:
+        Deck drawPile;
+        Deck discardPile;
+        Deck hand;
 
 };
 
